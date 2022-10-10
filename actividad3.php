@@ -6,6 +6,7 @@
     $SQLQuery = "SELECT * FROM Ejemplo";
     $RecordSet = odbc_exec($ODBCConnection, $SQLQuery);
 ?>
+<h1> Mostrar datos de Postgres </h1> 
 <table class="table table-bordered">
     <thead><tr><th>S.N</th>
         <th>Nombre</th>
